@@ -2,8 +2,8 @@ var request = require('request');
 var slackbot = require('./slackbot-new');
 var fs = require('fs');
 
-var botKey = "xoxb-159703536768-pd7LMDEykTZER5m5PN6bh7gD";
-var taIDs = "U361Q3GPP,U2JU26MPS,U42S89JCX,U2BGW8TS7,U3K0RFJAY,U5Q1G6L91".split(",");
+var botKey = "xoxb-159703536768-zwgracG7nwo6Do6omLcdClHY";
+var taIDs = "U361Q3GPP,U2JU26MPS,U42S89JCX,U2BGW8TS7,U3K0RFJAY,U5Q1G6L91,U4A9PV49F".split(",");
 
 var bot = new slackbot(botKey);
 
